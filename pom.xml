@@ -50,6 +50,19 @@
 			<artifactId>glassfish-jstl</artifactId>
 			<version>11.0.13</version>
 		</dependency>
+		<!-- The only time you need a version is when it is not managed by the parent -->
+		<!-- The bootstrap API will be used with CSS -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>5.1.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.6.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
