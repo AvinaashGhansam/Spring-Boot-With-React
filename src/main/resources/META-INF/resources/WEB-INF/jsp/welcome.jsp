@@ -1,14 +1,12 @@
 <html>
+  <head>
+    <title>Welcome Page</title>
+  </head>
 
-<head>
-    <title>Login</title>
-</head>
-
-<body>
+  <body>
     <div>Welcome ${name}</div>
+    <hr />
     <div>password=${password}</div>
-
-</body>
-
-
+    <div><a href="list-todos">Manage </a>Your Todos</div>
+  </body>
 </html>
